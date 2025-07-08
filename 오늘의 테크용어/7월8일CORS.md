@@ -22,4 +22,5 @@ kimsee.com (클라이언트) -> kimseeServer.net (서버)
 3. 브라우저에서 Access-Control-Allow-Origin에 kimsee.com이 있는지 확인하고, 없다면 CORS 오류를, 있다면 요청이 정상적으로 처리된다.
 
 ## Spring에서의 CSRF
-스프링에서는 이를 매우 간단하게 적용할 수 있다. Spring security 를 활용하여 CORS 예외 설정을 해도 되고,   컨트롤러에 아래 이미지에 있는 어노테이션을 활용해 사용할 수도 있다. ![Spring CORS](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKICHV3138Qfc_yjttOobV2tcxh6HqCr2nhA&s)
+스프링에서는 이를 매우 간단하게 적용할 수 있다. Spring security 를 활용하여 CORS 예외 설정을 해도 되고, 컨트롤러에 아래 이미지에 있는 어노테이션을 활용해 사용할 수도 있다. 
+![Spring CORS](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKICHV3138Qfc_yjttOobV2tcxh6HqCr2nhA&s)
